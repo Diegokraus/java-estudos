@@ -1,0 +1,10 @@
+
+public class TestacontaSemCliente {
+	public static void main(String[] args) {
+		Conta contaMarcela = new Conta();
+		System.out.println(contaMarcela.saldo);
+		
+		contaMarcela.titular.nome = "Marcela";
+		System.out.println(contaMarcela.titular.nome);
+	}
+}
